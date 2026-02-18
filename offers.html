@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Offers - PizzaHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="offers.css">
+    <link rel="stylesheet" href="offersresponsive.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+    <div class="logo">Pizza<span>Hub</span></div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">&#9776;</div>
+    </nav>
+</header>
+
+<!-- ===== HERO SECTION ===== -->
+<section class="offers-hero">
+    <h1>Hot Deals & Special Offers</h1>
+    <p>Grab your favorite pizza at unbeatable prices!</p>
+</section>
+
+<!-- ===== COUNTDOWN SECTION ===== -->
+<section class="countdown-section">
+    <h2>Limited Time Offer Ends In:</h2>
+    <div id="countdown">
+        <div><span id="days">00</span><p>Days</p></div>
+        <div><span id="hours">00</span><p>Hours</p></div>
+        <div><span id="minutes">00</span><p>Minutes</p></div>
+        <div><span id="seconds">00</span><p>Seconds</p></div>
+    </div>
+</section>
+
+<!-- ===== OFFERS GRID ===== -->
+<section class="offers-container">
+
+    <div class="offer-card">
+        <div class="badge">30% OFF</div>
+        <h3>First Order Discount</h3>
+        <p>Get 30% OFF on your first pizza order.</p>
+        <div class="coupon-box">
+            <span id="coupon1">WELCOME30</span>
+            <button onclick="copyCoupon('coupon1')">Copy</button>
+        </div>
+    </div>
+
+    <div class="offer-card">
+        <div class="badge">Buy 1 Get 1</div>
+        <h3>Weekend Special</h3>
+        <p>Buy one pizza & get one absolutely free.</p>
+        <div class="coupon-box">
+            <span id="coupon2">BOGOFREE</span>
+            <button onclick="copyCoupon('coupon2')">Copy</button>
+        </div>
+    </div>
+
+    <div class="offer-card">
+        <div class="badge">Flat ₹100 OFF</div>
+        <h3>App Exclusive</h3>
+        <p>Order via app & get ₹100 OFF instantly.</p>
+        <div class="coupon-box">
+            <span id="coupon3">APP100</span>
+            <button onclick="copyCoupon('coupon3')">Copy</button>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 PizzaHub. All rights reserved.</p>
+</footer>
+
+<script src="main.js"></script>
+<script src="offers.js"></script>
+</body>
+</html>

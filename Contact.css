@@ -1,0 +1,59 @@
+/* ===== CONTACT PAGE ===== */
+
+.contact-hero {
+    background: #e4002b;
+    color: white;
+    text-align: center;
+    padding: 80px 5%;
+}
+
+.contact-container {
+    display: flex;
+    gap: 40px;
+    padding: 60px 5%;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.info-card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.contact-form {
+    flex: 1;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #e4002b;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+}
+
+.success-message {
+    margin-top: 15px;
+    color: green;
+    font-weight: bold;
+}
+
+.map-section {
+    margin-top: 40px;
+}

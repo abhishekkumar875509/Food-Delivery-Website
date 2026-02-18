@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu - PizzaHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Menu.css">
+    <link rel="stylesheet" href="Menuresponsive.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+    <div class="logo">Pizza<span>Hub</span></div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">&#9776;</div>
+    </nav>
+    <div class="cart-icon">
+        🛒 <span id="cart-count">0</span>
+    </div>
+</header>
+
+<!-- ===== MENU HEADER ===== -->
+<section class="menu-hero">
+    <h1>Our Delicious Menu</h1>
+    <p>Freshly baked with premium ingredients</p>
+</section>
+
+<!-- ===== CATEGORY FILTER ===== -->
+<section class="menu-filter">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="veg">Veg</button>
+    <button class="filter-btn" data-category="nonveg">Non-Veg</button>
+    <button class="filter-btn" data-category="drinks">Drinks</button>
+</section>
+
+<!-- ===== MENU ITEMS ===== -->
+<section class="menu-container">
+
+    <div class="menu-card" data-category="veg">
+        <img src="https://images.unsplash.com/photo-1601924638867-3ec6c9c8e0a5" alt="">
+        <h3>Margherita</h3>
+        <p>Classic mozzarella & tomato</p>
+        <span class="price">₹199</span>
+        <button class="add-cart">Add to Cart</button>
+    </div>
+
+    <div class="menu-card" data-category="nonveg">
+        <img src="https://images.unsplash.com/photo-1594007654729-407eedc4be65" alt="">
+        <h3>Pepperoni</h3>
+        <p>Loaded with spicy pepperoni</p>
+        <span class="price">₹299</span>
+        <button class="add-cart">Add to Cart</button>
+    </div>
+
+    <div class="menu-card" data-category="veg">
+        <img src="https://images.unsplash.com/photo-1548365328-8b849b5dd5c0" alt="">
+        <h3>Farmhouse</h3>
+        <p>Onion, capsicum, mushrooms</p>
+        <span class="price">₹249</span>
+        <button class="add-cart">Add to Cart</button>
+    </div>
+
+    <div class="menu-card" data-category="drinks">
+        <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505" alt="">
+        <h3>Cold Drink</h3>
+        <p>Refreshing chilled beverage</p>
+        <span class="price">₹59</span>
+        <button class="add-cart">Add to Cart</button>
+    </div>
+
+</section>
+
+<script src="js/main.js"></script>
+</body>
+</html>

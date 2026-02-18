@@ -1,0 +1,84 @@
+/* ===== ABOUT PAGE ===== */
+
+.about-hero {
+    background: #e4002b;
+    color: white;
+    text-align: center;
+    padding: 80px 5%;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 5%;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mission-vision {
+    display: flex;
+    gap: 30px;
+    padding: 60px 5%;
+    justify-content: center;
+}
+
+.mv-card {
+    background: white;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.mv-card:hover {
+    transform: translateY(-8px);
+}
+
+.team-section {
+    text-align: center;
+    padding: 60px 5%;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.team-card {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.team-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.team-card:hover {
+    transform: translateY(-8px);
+}
+
+.about-cta {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 70px 5%;
+}
